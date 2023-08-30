@@ -1,0 +1,98 @@
+/* Write your CSS here */
+@media (max-width: 575px) {
+  .main-heading {
+    color: #2d3a35;
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 900;
+  }
+
+  .description {
+    color: #2d3a35;
+    font-family: 'Roboto';
+    font-size: 15px;
+  }
+
+  .button {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 12px;
+    border-radius: 12px;
+    background-color: #007bff;
+    height: 36px;
+    width: 90px;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .count {
+    color: #c20a72;
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 900;
+  }
+  .bg-conainer {
+    background-color: #f1f5f8;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 576px) {
+  .main-heading {
+    color: #2d3a35;
+    font-family: 'Roboto';
+    font-size: 56px;
+    font-weight: 900;
+  }
+
+  .description {
+    color: #2d3a35;
+    font-family: 'Roboto';
+    font-size: 24px;
+  }
+
+  .button {
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 12px;
+    border-radius: 12px;
+    background-color: #007bff;
+    height: 50px;
+    width: 120px;
+    outline: none;
+    cursor: pointer;
+    border-width: 0;
+  }
+
+  .count {
+    color: #c20a72;
+    font-family: 'Roboto';
+    font-size: 56px;
+    font-weight: 900;
+  }
+  .bg-conainer {
+    background-color: #f1f5f8;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+}
